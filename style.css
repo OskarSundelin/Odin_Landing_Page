@@ -10,11 +10,18 @@ body {
 	/* FLEXBOX */
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
+	/* justify-content: center; */
 	align-items: center;
 }
 
+button {
+	color: #F9FAF8;
+	background-color: #3882F6;
+}
 
+.content {
+	width: 70%;
+}
 
 .header {
 	width: 100%;
@@ -38,7 +45,7 @@ body {
 	color: #F9FAF8;
 }
 
-.content {
+.innerContent {
 	width: 100%;
 
 	flex-grow: 1;
@@ -47,7 +54,20 @@ body {
 	justify-content: center;
 	align-items: center;
 	gap: 10px;
-	color:brown;
+}
+
+.heroSection {
+	background-color: #1F2937;
+
+}
+.heroSection h1 {
+	font-size: 48px;
+	color: #F9FAF8;
+	font-weight: 900;
+}
+.heroSection p {
+	font-size: 18px;
+	color: #E5E7EB;
 }
 
 .imageBox {
