@@ -3,15 +3,10 @@ body {
 	font-family: 'Roboto';
 	font-size: 22px;
 
-	/* SIZING */
+	/* POSITION */
 	height: 100vh;
 	width: 99vw;
-
-	/* FLEXBOX */
-	display: flex;
-	flex-direction: column;
-	/* justify-content: center; */
-	align-items: center;
+	margin: 0;
 }
 
 button {
@@ -20,15 +15,27 @@ button {
 }
 
 .content {
-	width: 70%;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	/* gap: 10px; */
 }
 
-.header {
+.headerContainer {
 	width: 100%;
 	background-color: #1F2937;
 
 	display: flex;
-	flex-direction: row;
+	justify-content: center;
+}
+
+.header {
+	width: 70%;
+	background-color: #1F2937;
+
+	display: flex;
 	justify-content: space-between;
 	align-items: center;
 }
@@ -45,20 +52,25 @@ button {
 	color: #F9FAF8;
 }
 
-.innerContent {
+.heroContainer {
 	width: 100%;
+	background-color: #1F2937;
 
-	flex-grow: 1;
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	justify-content: center;
 	align-items: center;
-	gap: 10px;
 }
 
 .heroSection {
-	background-color: #1F2937;
+	width: 70%;
 
+	border-style: dotted;
+	border-color: #F9FAF8;
+
+	display: flex;
+	justify-content: space-between;
+	gap: 15%;
 }
 .heroSection h1 {
 	font-size: 48px;
@@ -76,23 +88,72 @@ button {
 	height: 200px;
 }
 
-.quoteSection {
+.infoContainer {
+	width: 100%;
+
+	display: flex;
+	justify-content: center;
+}
+
+.infoSection {
+	width: 60%;
+
+	border-style: dotted;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.quoteContainer {
 	width: 100%;
 	background-color: #E5E7EB;
+	padding: 5%;
+	
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.quoteSection {
+	width: 60%;
+
+	border-style: dotted;
+
+
 	font-size: 36px;
-	font-style: light italic;
+	font-weight: lighter;
+	font-style: italic;
 	color: #1F2937
 
 }
 
-.footer {
+.floatRight {
+	float: right;
+	font-size: 24px;
+	font-weight: 900;
+	font-style: normal;
+}
+
+.footerContainer {
 	width: 100%;
+	background-color: #1F2937;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.footer {
+	width: 70%;
 	background-color: #1F2937;
 
 	color: #E5E7EB;
 	text-decoration: none;
 	font-size: 18px;
-	margin: 15px;
 
 	display: flex;
 	justify-content: center;
