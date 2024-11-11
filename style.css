@@ -106,6 +106,25 @@ button {
 	align-items: center;
 }
 
+.infoList {
+	display: flex;
+	justify-content: space-between;
+	gap: 50px;
+}
+
+.itemImage {
+	border: 3px solid #3882F6;
+	border-radius: 15px;
+	width: 150px;
+	height: 150px;
+}
+
+.itemImage img {
+	width: 150px;
+	height: 150px;
+	border-radius: 15px;
+}
+
 .quoteContainer {
 	width: 100%;
 	background-color: #E5E7EB;
