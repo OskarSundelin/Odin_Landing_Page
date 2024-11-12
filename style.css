@@ -13,7 +13,10 @@ button {
 	color: #F9FAF8;
 	background-color: #3882F6;
 	border: 1px solid #3882F6;
-	border-radius: 15px;
+	border-radius: 5px;
+	width: 100px;
+	height: 30px;
+	font-weight: bold;
 }
 
 .content {
@@ -166,6 +169,34 @@ button {
 	font-size: 24px;
 	font-weight: 900;
 	font-style: normal;
+}
+
+.actionContainer {
+	width: 100%;
+	padding: 5%;
+	
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.actionSection {
+	width: 50%;
+	color: #E5E7EB;
+	background-color: #3882F6;
+	border-radius: 5px;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-left: 50px;
+	padding-right: 50px;
+
+}
+
+.whiteBorder {
+	border: 2px solid white;
 }
 
 .footerContainer {
