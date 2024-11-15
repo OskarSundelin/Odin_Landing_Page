@@ -93,6 +93,16 @@ button {
 	height: 200px;
 }
 
+.leftSide {
+	flex: 1;
+	max-width: 50%;
+}
+
+.rightSide {
+	flex: 1;
+	max-width: 50%;
+}
+
 .infoContainer {
 	width: 100%;
 
