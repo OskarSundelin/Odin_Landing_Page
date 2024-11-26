@@ -76,26 +76,34 @@ button {
 	display: flex;
 	justify-content: space-between;
 	gap: 15%;
+	padding: 50px;
 }
-.heroSection h1 {
+
+.leftSide {
+	flex: 1;
+	max-width: 50%;
+}
+
+.mainText {
 	font-size: 48px;
+	margin: 0;
 	color: #F9FAF8;
 	font-weight: 900;
 }
-.heroSection p {
+.subText {
 	font-size: 18px;
+	margin: 0;
 	color: #E5E7EB;
+}
+
+.heroButton {
+	margin-top: 10px;
 }
 
 .imageBox {
 	background-color: gray;
 	width: 400px;
 	height: 200px;
-}
-
-.leftSide {
-	flex: 1;
-	max-width: 50%;
 }
 
 .rightSide {
@@ -228,6 +236,7 @@ button {
 	font-size: 18px;
 
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 }
