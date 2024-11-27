@@ -70,7 +70,7 @@ button {
 .heroSection {
 	width: 70%;
 
-	border-style: dotted;
+	/* border-style: dotted; */
 	border-color: #F9FAF8;
 
 	display: flex;
@@ -121,7 +121,7 @@ button {
 .infoSection {
 	width: 60%;
 
-	border-style: dotted;
+	/* border-style: dotted; */
 
 	display: flex;
 	flex-direction: column;
@@ -172,13 +172,14 @@ button {
 .quoteSection {
 	width: 60%;
 
-	border-style: dotted;
+	/* border-style: dotted; */
 
-
-	font-size: 36px;
-	font-weight: lighter;
+	/* font-size: 36px;
+	font-weight: 300;
 	font-style: italic;
-	color: #1F2937
+	color: #1F2937; */
+
+	font: italic 300 36px 'Roboto';
 
 }
 
