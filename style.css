@@ -171,7 +171,8 @@ button {
 .quoteContainer {
 	width: 100%;
 	background-color: #E5E7EB;
-	padding: 5%;
+	padding-top: 5%;
+	padding-bottom: 5%;
 	
 	display: flex;
 	flex-direction: row;
@@ -202,7 +203,8 @@ button {
 
 .actionContainer {
 	width: 100%;
-	padding: 5%;
+	padding-top: 5%;
+	padding-bottom: 5%;
 	
 	display: flex;
 	flex-direction: row;
